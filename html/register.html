@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="../js/project.js"></script>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<div class="header"> <!--Header-->
+		<h1>Interocean Motor</h1>
+	</div>
+	<center>
+		<form class="form" name="registerForm" action="../php/register.php" onsubmit="return validateRegisterForm()" method="post"> <!--Register Form--> <!--Register validation-->
+			<h1 class="login-title">Register Form</h1>
+			<input type="text" id="idname" class="login-input" name="name" placeholder="Full Name"/> <!--Name-->
+			<input type="text" id="idemail" class="login-input" name="email" placeholder="Email"/> <!--Email-->
+			<input type="text" id="idphone" class="login-input" name="phone" placeholder="Phone"/> <!--Phone-->
+			<input type="text" id="idusername" class="login-input" name="username" placeholder="Username"/> <!--Username-->
+			<input type="password" id="idpassword" class="login-input" name="password" placeholder="Password"/> <!--Password-->
+			<input type="submit" class="login-button" name="submit" value="Register"> <!--Register button-->
+			<p class="link"><a href="../html/login.html">Click to Login</a></p> <!--Link to Login Page-->
+		</form>
+		<br>
+	</center>
+	<div class="footer"> <!--Footer-->
+		<h3>Created by Wong Yan Mei. &copy; 2021</h3>
+	</div>
+</body>
+</html>
