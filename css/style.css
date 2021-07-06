@@ -1,0 +1,106 @@
+.header {
+    padding: 15px;
+    text-align: center;
+    background-color: #f1c445; 
+    color: white;
+}
+
+.topnavbar {
+    overflow: hidden;
+    background-color: black;
+    width: 100%;
+}
+
+.topnavbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.topnavbar a.right {
+    float: right;
+}
+
+.topnavbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.logo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.logo h2 {
+    border-style: solid;
+    width: 500px;
+}
+
+.footer {
+    text-align: center; 
+    background-color: black; 
+    padding: 5px; 
+    font-size: 10px; 
+    color: white; 
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%;
+}
+
+.form {
+    margin: 50px auto;
+    width: 500px;
+    padding: 30px 25px;
+    background: lightgray;
+}
+
+h1.login-title {
+    color: #666;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+
+.login-button {
+    color: #fff;
+    background: #55a1ff;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.link {
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.link a {
+    color: #666;
+}
